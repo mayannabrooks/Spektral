@@ -6,6 +6,7 @@ html {
     color: black;
     } 
 
+
 header  {
       background-color: white;
     }
@@ -16,9 +17,9 @@ ul {
     padding: -100px;
     margin: 0;
     margin-left: 70px;
-    margin-right: 80px;
+    margin-right: 100px;
     justify-content: center;
-    height: 50px;
+    height: 0px;
 }
 
 li a {
@@ -38,9 +39,9 @@ body {
 }
 
 nav {
-    margin-right: -15px;
-    margin-left: -15px;
-    margin: -50px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin: 0px;
     position: 0px;
     
 }
@@ -63,7 +64,7 @@ justify-content: flex-start;
 }
 .slide-container {
 width: 800px;
-padding-top: 100px;
+padding-top: px;
 height: 600px;
 margin-left: auto;
 margin-right: auto;
@@ -101,20 +102,15 @@ border-radius: 5px;
 background-color: white;
 }
 
-#slide-image-1:target ~ .image-container{
+#slide-image-1:target ~ .image-container {
     left: 0px;
 }
 #slide-image-2:target ~ image-container {
     left: -800px;
 }
-#slide-image-3:target ~ .image-container{
+#slide-image-3:target ~ .image-container {
     left: -1600px;
 }
-#slide-image-4:target ~ .image-container{
+#slide-image-4:target ~ .image-container {
     left: -3200px;
 }
-
-
-
-
- 
